@@ -1,0 +1,49 @@
+.desktopMenu{
+    display: flex;
+    justify-content: space-around;
+    background: #3b5d50 !important;
+}
+.Logo{
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 600;
+    color: white;
+}
+ul{
+    align-items: center;
+    text-align: center;
+    
+}
+li{
+    list-style: none;
+    padding-top: 17px; 
+    font-size: 16px;
+    
+}
+
+
+.hover{
+    text-decoration: none;
+    margin-right: 40px;
+    font-weight: 500;
+    color: white;
+    opacity: 75%;
+
+}
+.selected_yellow{
+    color: yellow;
+    opacity: 100%;
+    text-decoration: none;
+}
+
+.hover:hover{
+    color: yellow;
+}
+
+
+.svg1{
+    color: white;
+    font-size: 20px;
+    margin-top: 12px;
+    margin-right: 10px;
+}

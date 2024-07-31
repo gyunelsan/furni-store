@@ -1,0 +1,40 @@
+.container_shop{
+    background-color: #3b5d50;
+    height: 50vh;
+}
+.heading_shop{
+    color: white;
+    margin-left: 11%;
+    padding-top: 90px;
+    padding-left: 8px;
+    font-weight: 700;
+    font-size: 40px;
+   
+
+}
+.productsSection{
+     width: 80%;
+     margin-left: 10%;
+}
+
+.addIcon{
+    font-size: 40px;
+    color: #517c6c;
+    cursor: pointer;
+
+}
+.addIcon:hover{
+    color: #1f2b26;
+    transition: 1s;
+}
+.card{
+    width: 300px;
+    text-align: center;
+    
+}
+.card-text{
+    font-size: 26px;
+    color: #30473e;
+    font-weight: 700;
+}
+

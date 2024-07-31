@@ -1,0 +1,68 @@
+.panellSection{
+    background-color: #3b5d50;
+}
+.content{
+    color: white;
+    margin-top: 140px;
+    margin-left: 40px;
+    text-align: left;
+    padding-right: 60px;
+    margin-left: 60px;
+
+
+}
+.content p{
+    font-weight: 400;
+    font-size: 16px;
+    opacity: 60%;
+    margin-top: 30px;
+
+
+}
+
+.gridSection{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 150px;
+    
+}
+.gridImages{
+    width: 40%;
+
+}
+.gridImage1{
+    width: 400px;
+    border-radius: 15px;
+    position: absolute;
+}
+.gridImage2{
+    width: 180px;
+    border-radius: 15px;
+    position: relative;
+    left: 420px;
+}
+.gridImage3{
+    width: 330px;
+    border-radius: 15px;
+    position: relative;
+    left: 270px;
+    top :20px;
+}
+.gridText{
+   width: 40%;
+   margin-left: 230px;
+   margin-top: 50px;
+   
+   
+
+    
+}
+.gridHeading{
+    font-size: 36px;
+
+}
+.textGrid{
+    font-size: 17px;
+    font-weight: 500;
+    opacity: 60%;
+}

@@ -1,0 +1,36 @@
+.btn_yellow{
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    border: 1px solid transparent;
+    border-radius: 20px;
+    background-color: #F9bf29;
+    color: black;
+    font-size: 16px;
+    width: 140px;
+    height: 50px;
+    padding: 12px 30px;
+    margin-right: 20px;
+}
+.btn_outline{
+    cursor: pointer;
+    font-weight: 600;
+    text-align: center;
+    white-space: nowrap;
+    border: 2px solid rgba(255, 255, 255, 0.493);
+    border-radius: 20px;
+    width: 122px;
+    height: 52px;
+    font-size: 16px;
+    background-color: transparent;
+    color: white;
+}
+.btn_yellow:hover{
+    background-color: #d6a11b;
+    transition: 1s;
+}
+.btn_outline:hover{
+    border: 2px solid white;
+    transition: 1s;
+}

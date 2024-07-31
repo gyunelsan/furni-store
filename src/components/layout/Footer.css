@@ -1,0 +1,25 @@
+.sofa_img{
+    width: 300px;
+    position: relative;
+    top: -150px;
+}
+.copyright{
+    padding-top: 17px;
+    padding-left: 30px;
+}
+.footer_li{
+    margin-right: 25px;
+}
+.svg2{
+    font-size: 25px;
+    color: #3b5d50;
+    margin-left: 15px;
+}
+.sm_icons{
+    margin-left: 20px;
+}
+footer{
+    width: 80%;
+    margin-left: 10%;
+    margin-top: 100px;
+}
