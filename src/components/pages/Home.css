@@ -24,6 +24,7 @@
     width: 80%;
     margin-left: 10%;
     margin-top: 150px;
+    flex-wrap: wrap;
     
 }
 .gridImages{
@@ -49,9 +50,9 @@
     top :20px;
 }
 .gridText{
-   width: 40%;
-   margin-left: 230px;
-   margin-top: 50px;
+   width: 350px;
+   /* margin-left: 230px; */
+   margin-top: 10px;
    
    
 
@@ -65,4 +66,61 @@
     font-size: 17px;
     font-weight: 500;
     opacity: 60%;
+}
+
+.chairImage{
+    width: 250px;
+}
+
+
+@media only screen and ( max-width: 1210px) {
+    
+    .gridImage1{
+        width: 260px;
+        
+    }
+    .gridImage2{
+        width: 120px;
+        position: relative;
+        left: 270px;
+        
+    }
+    .gridImage3{
+        width: 220px;
+        left: 170px;
+        
+      
+    }
+    
+
+}
+
+@media only screen and ( max-width: 989px) {
+    .gridText{
+      width: fit-content;
+
+    }
+  
+    
+
+}
+
+@media only screen and ( max-width: 455px) {
+    .gridImage1{
+        width: 200px;
+        
+    }
+    .gridImage2{
+        width: 80px;
+        position: relative;
+        left: 220px;
+        
+    }
+    .gridImage3{
+        width: 160px;
+        left: 150px;
+        
+      
+    }
+
 }

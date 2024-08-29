@@ -1,0 +1,76 @@
+.productsUl{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 18px;
+}
+
+.totals{
+    width: 300px;
+    border: 1px solid grey;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+}
+.totals table{
+   width: 150px;
+   font-size: 17px;
+   font-weight: 600;
+   
+}
+.totals h3{
+    margin-top: -30px;
+}
+.totals button{
+   margin-left: 35px;
+
+}
+
+.totals_container{
+    /* width: 80%;
+    margin-left: 10%; */
+    
+}
+
+
+
+
+
+
+@media only screen and ( max-width: 1077px) {
+    .totals_container{
+        flex-wrap: wrap;
+        
+    }
+    .totals{
+        width: 300px;
+        
+
+    }
+  
+    
+}
+
+@media only screen and ( max-width: 708px) {
+   
+    .totals{
+        margin-top: 30px;
+        
+    }
+    .cart_buttons{
+        width: 200px;
+        padding-top: 50px;
+        margin-left: 3%;
+        
+    
+        
+        
+    }
+    .cart_buttons button {
+        margin-top: 4%;
+    }
+  
+    
+}
+

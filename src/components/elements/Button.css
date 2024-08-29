@@ -25,6 +25,7 @@
     font-size: 16px;
     background-color: transparent;
     color: white;
+    margin-top: 17px;
 }
 .btn_yellow:hover{
     background-color: #d6a11b;
@@ -34,3 +35,4 @@
     border: 2px solid white;
     transition: 1s;
 }
+

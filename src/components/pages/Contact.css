@@ -2,3 +2,76 @@
     background-color: #3b5d50;
     height: 100vh;
 }
+.service .service-icon {
+    border-radius: 10px;
+    -webkit-box-flex: 0;
+    -ms-flex: 0 0 50px;
+    flex: 0 0 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #3b5d50;
+    margin-right: 20px;
+    color: #ffffff;
+}
+
+.img-fluid{
+    border-radius: 25px;
+}
+.post-content-entry h3{
+    font-size: 18px
+
+}
+.meta{
+    font-size: 15px;
+    opacity: 60%;
+    font-weight: 600;
+}
+
+.error{
+    color: red;
+    font-size: 11px!important;
+    letter-spacing: 2px !important;
+    
+}
+
+
+
+
+@media only screen and ( max-width: 780px) {
+
+    .formSection{
+        margin-left: 20px;
+        width: 400px;
+    }
+    .form-group{
+        width: 400px;
+    }
+    .form-group input{
+        width: 400px;
+    }
+    .form-group textarea{
+        width: 400px;
+    }
+    
+
+}
+
+@media only screen and ( max-width: 455px) {
+    .formSection{
+        width: 300px;
+    }
+
+    .form-group{
+        width: 300px;
+    }
+    .form-group input{
+        width: 300px;
+    }
+    .form-group textarea{
+        width: 300px;
+    }
+    
+
+}
+

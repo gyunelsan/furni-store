@@ -4,7 +4,7 @@ import Navbar from '../elements/Navbar'
 
 const Header = () => {
   return (
-    <div>Header
+    <div>
       <Navbar/>
     </div>
   )

@@ -8,17 +8,28 @@
 
 
 .second_section_about{
-    display: flex;
-    justify-content: space-around;
+   text-align: center;
 }
 .chooseus_content{
-    width: 400px;
     padding-top: 60px;
+    flex-wrap: wrap;
 
 }
-.whychooseus_img{
-    width: 400px;
-    margin-top: 60px;
-    
-    border-radius: 12px;
+.serviceItems{
+    flex-wrap: wrap;
 }
+
+
+
+
+
+
+
+@media only screen and ( max-width: 780px) {
+    .chooseus_content{
+        width: 200px;
+        padding-top: 60px;
+        flex-wrap: wrap;
+    
+    }
+  }

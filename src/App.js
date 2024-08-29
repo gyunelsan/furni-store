@@ -2,26 +2,27 @@ import './App.css';
 import Header from './components/layout/Header';
 import Footer from './components/layout/Footer';
 import { Route, Routes } from 'react-router-dom';
-// import { Home } from "./components/pages/Home";
 import { About } from "./components/pages/About";
 import { Shop } from "./components/pages/Shop";
 import { Contact } from "./components/pages/Contact"
 import { Services } from './components/pages/Services';
 import { Blog } from "./components/pages/Blog"
 import { Bascet } from "./components/elements/Bascet"
-import Button from "./components/elements/Button"
+
 
 
 import Home from "./components/pages/Home"
 import { Provider } from 'react-redux';
-import store from './store';
-// import Cart from './Cart';
-// import ProductList from './ProductList';
+import store, {persistor} from './store';
+import {PersistGate} from "redux-persist/integration/react"
+
+
 
 
 function App() {
   return (
     <Provider store={store}>
+      <PersistGate loading={null} persistor={persistor}>
     <div className="App">
      <Header/>
     <Routes>
@@ -41,6 +42,7 @@ function App() {
     
       <Footer/>
     </div>
+    </PersistGate>
     </Provider>
   );
 };

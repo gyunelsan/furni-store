@@ -12,12 +12,15 @@
 }
 .cart_header{
     width: 80%;
-    margin-left: 10%;
+    margin-left: 14%;
     padding-top: 40px;
     font-size: 24px;
     color: black;
     font-weight: 400;
 
+}
+.cart_header div{
+    margin-right: 25px;
 }
 .products_cart{
     width: 80%;
@@ -29,15 +32,13 @@
 .productimg{
     width: 120px;
 }
-.inputQuantity{
-    width: 60px;
-   
-    
-}
+
 .remove-icon{
     font-size: 40px;
     color: #3b5d50;
+    
 }
+
 
 .btn_grey{
     cursor: pointer;
@@ -59,14 +60,28 @@
     transition: 1s;
 }
 .cart_buttons{
-    width: 80%;
-    margin-left: 10%;
     padding-top: 50px;
+
+    
     
 }
 .totals{
-    width: 80%;
-    margin-left: 10%;
+    
     padding-top: 80px;
     font-size: 17px;
+}
+
+@media only screen and ( max-width: 780px) {
+    .cart_header{
+        width: 70%;
+        font-size: 18px;
+        
+    
+    }
+    .products_cart{
+        width: 70%;
+        font-size: 15px
+
+    }
+
 }

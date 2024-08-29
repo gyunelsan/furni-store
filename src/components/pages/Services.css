@@ -1,0 +1,12 @@
+.feature{
+    text-align: center;
+}
+.featureHeading{
+    font-size: 14px;
+    font-weight: 600;
+}
+.featureP{
+    font-size: 14px;
+    color: #8b8b8b;
+    font-weight: 500;
+}
