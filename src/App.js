@@ -8,9 +8,6 @@ import { Contact } from "./components/pages/Contact"
 import { Services } from './components/pages/Services';
 import { Blog } from "./components/pages/Blog"
 import { Bascet } from "./components/elements/Bascet"
-
-
-
 import Home from "./components/pages/Home"
 import { Provider } from 'react-redux';
 import store, {persistor} from './store';

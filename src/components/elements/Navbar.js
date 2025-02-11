@@ -55,7 +55,7 @@ const Navbar = () => {
    <nav>
     <div className='desktopMenu'>
     <div>
-        <a className='Logo' href=""> Furni </a>
+        <a className='Logo' href='#'> Furni </a>
       </div>
     <ul className='d-flex '>
     <li>
